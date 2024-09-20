@@ -1,0 +1,67 @@
+Removed Data:
+A3-1: Still exploitable samples but out of focus corners
+B1 - All yellow channels badly acquired
+B5 - All yellow channels badly acquired
+B8 - Different kind of cell with badly acquired yellow channel
+B10 - All yellow channels badly acquired
+C2 - Different kind of cell
+C3 - empty, no cells to segment
+D1 - empty
+D5 - Nothing in samples
+D11 - Nothing in samples
+F1 - Empty
+G1 - Empty
+G12 - Empty
+
+
+
+
+
+Different kind of cells:
+B8 - Different kind of cell with badly acquired yellow channel
+B6 - Different kind of cell? do we still analyze
+D3 - Different kind of cell?
+D9 -Different cells
+D10- Different cells
+C10 - Different cells
+C11 - Different cells
+E7- Different cells
+E10- different cells
+F2-F3- Good sample of different kind of cells?
+F4 - different cell type (GOOD EXAMPLE OF DEPLETED?)
+F7 - different cell type
+H3 - different cell type
+H10 - different cell type (STRANGE)
+
+
+
+
+
+
+
+Potential removal:
+B4 - noisy background on yfp
+// C1 -(4, 7) Yellow channel is off (we can work with them)
+C5 - noise hard to remove
+C6 - noise hard to remove
+C9 - noisy
+D4 - noisy
+E2- few cells in sample
+E5 - few cells in sample
+E4 - 2 types of cells?
+E8- 2 types of cells?
+F8 - blurry?
+F11 - noise hard to remove- turn image type to 32 bit, (process->filter->gaussian) then (median process filter of 2) dog with signma 0.5 to substract background and then median filter for the dispeckle
+G2 - noise hard to remove
+H2 - noisy
+
+
+
+
+
+
+
+
+
+
+

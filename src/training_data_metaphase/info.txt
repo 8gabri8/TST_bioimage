@@ -1,0 +1,7 @@
+d_10_6: big cells (G)
+f_6_1: normal cells (G)
+E_1_7: normal looking cells, a little out of focus on corners.
+D_9_3: different kind of cells (2 good nuclei get discarded :( )
+F_2_6: some different kind of cells
+F_3_11: different kind of cells
+E_9_9: normal looking, packed.

@@ -1,0 +1,41 @@
+17 friday --> finish all the code!!!!!
+24 friday --> last question to remy
+27 --> send code
+29 --> initial presenatition
+30 thurdsay - final reharsal
+31 --> presenation
+
+TODO-RUN
+
+SEND --> zip:
+Your Java code.
+The .jar file of your plugin
+Your presentation in PDF
+
+
+
+
+
+
+
+
+
+
+HOW TO GENRATE .JAR FILE
+- maven --> lifecycel --< install (this generate thge jat file) (9nto yhe Target folder)
+- .jar without the soruces (beocse is smaller) BUT IN THIS WAY DOMCUENTATION SAY WHICH DEPDCDEICNS MUST BE ADDED
+
+
+STEPS FOR RF TRAINING
+1) choose an image (chnage path of the 2 images ans the name "image_name")
+2) go in the temp folder
+3) open the csv file
+4) close the roi
+5) load the roi_prefiltered (the same on the csv)
+6) annotate manually
+7) create a copy of the csv file annotated as file as "name_old_file + name well-field + manually_annotated.csv", ex. data_prefiltered_H_11_1_manually_annotated.csv
+8) copy the "...manually_annotated.csv" and the RoiSet_prefiltered in training_data_metapahse
+9)WRITE IN THE TEXT FILE IF THE IMAGE MANUALLY ANNOTATED IS: nomal cells, big cells, with noise, ....
+
+  ProjectCommand.class.getClassLoader().getResorce("....") --> NB the file is MUST be in the reouce folder
+
